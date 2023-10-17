@@ -1,0 +1,155 @@
+:root {
+    --color-dark: rgb(34, 34, 34);
+    --color-dark2: #000000;
+    --color-pink: #fecee4;
+    --color-blue: #79b7c5;
+    --color-white: #fff;
+
+}
+
+
+body {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    font-family: poppinsregular;
+    margin: 0 auto;
+}
+
+#Pet {
+    /*Logo Azul*/
+    color: var(--color-blue);
+}
+
+#Scan {
+    /*Logo Rosa*/
+    color: var(--color-pink);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-right: 130px;
+
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: var(--color-white);
+    margin-left: 10px;
+}
+
+a:hover {
+    color: var(--color-blue);
+    transition: 0.3s all;
+}
+
+#criar-conta-btn {
+    border: 2px solid var(--color-blue);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#criar-conta-btn:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white)
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+#PossuiConta {
+    color: var(--color-pink)
+}
+
+img {
+    width: 500px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50%;
+    width: 50%;
+    background-color: var(--color-pink);
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #000000;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.informacoes {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.lista-contatos {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.lista-redes {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+.contato,
+.rede {
+    margin: 0;
+}
+
+.sobre-nos {
+    max-width: 400px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
